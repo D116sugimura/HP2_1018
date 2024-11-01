@@ -2,3 +2,24 @@ h1{
     color: orange;
     text-align: center;
 }
+form{
+    max-width: 750px;
+    background-color: rgb(255, 229, 180);
+    margin: 0 auto;
+}
+.Form-Item{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+}
+.Form-Item:nth-child(6){
+    border-bottom: 1px;
+}
+
+
+span{
+    background-color: orange;
+    color: white;
+}
+
+
